@@ -2,13 +2,17 @@
 name: Home
 route: /home
 ---
+import { Button } from './Button'
 
+import { navigate } from 'gatsby'
 
 # useAuth
 ## Add authentication
 ### useAuth is a privacy-first, open source and free way to add authentication to your React app
 
 Get Started
+
+<Button onClick={() => navigate('/docs/docs-button')} kind="cancel">Click me</Button>
 
 ### You lean back and useAuth handles **users**, **login forms**, **redirects**, sharing **state** between components. **Everything**.
 

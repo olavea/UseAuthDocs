@@ -1,6 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import t from 'prop-types'
+import { Link } from 'gatsby'
+
+// const butts = document.querySelector('.butts')
+
+// const handleClick = () => console.log('link')
+
+// butts.addEventListener('click', handleClick)
 
 const scales = {
   small: `
